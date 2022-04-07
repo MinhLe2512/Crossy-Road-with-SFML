@@ -134,5 +134,4 @@ void World::draw(sf::RenderTarget& target)
 		droad.draw(target);
 	}
 	m_player.draw(target);
-
 }

@@ -37,6 +37,8 @@ void Player::keymove()
             is_walking = true;
             initY = 192;
             people.setTextureRect({ initX,initY,64,64 });
+            if (y == -90)
+                nextspot = origin_pos.y;
         }
     }
 
